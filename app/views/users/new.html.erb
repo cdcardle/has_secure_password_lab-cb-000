@@ -1,12 +1,12 @@
 <%= form_for :user, controller: 'users', action: 'create' do |f|%>
   <%= f.label :name %>
-  <%= f.text_field :name %><br>
+  <%= f.text_field :name %><br></br>
 
   <%= f.label :password %>
-  <%= f.password_field :password %><br>
+  <%= f.password_field :password %><br></br>
 
   <%= f.label :password_confirmation %>
-  <%= f.password_field :password_confirmation %><br>
+  <%= f.password_field :password_confirmation %><br></br>
 
   <%= f.submit 'Sign Up' %>
 <% end %>
