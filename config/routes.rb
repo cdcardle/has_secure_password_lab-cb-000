@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get '/users/:id/homepage', to: 'users#homepage'
+  get 'users#homepage'
 
   root 'users#new'
 
