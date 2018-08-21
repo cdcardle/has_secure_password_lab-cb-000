@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get "/users/:id/homepage", to: "welcome#homepage"
 
-  get "sessions/create"
+  resources :sessions
 
   resources :users
 
