@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   # get 'users#homepage'
-  # 
+  #
   # root 'users#new'
 
   resources :users
