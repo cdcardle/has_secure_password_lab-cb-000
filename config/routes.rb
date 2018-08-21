@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  get 'users#homepage'
-
-  root 'users#new'
+  # get 'users#homepage'
+  # 
+  # root 'users#new'
 
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
