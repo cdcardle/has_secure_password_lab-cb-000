@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get '/users/:id/homepage', to: 'users#homepage'
 
-  root '/login', to: 'users#new'
+  root 'users#new'
 
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
