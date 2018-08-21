@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'sessions/create'
+
   # get 'users#homepage'
   #
   # root 'users#new'
