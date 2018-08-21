@@ -3,9 +3,9 @@ Rails.application.routes.draw do
 
   get "/welcome/homepage", to: "welcome#homepage"
 
-  get 'sessions/create'
+  get "sessions/create"
 
-  get 'users/homepage'
+  get "users/homepage"
 
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
