@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'Welcome#index'
+  root 'User#homepage'
 
   resources :users, only: [:new, :create]
   # The priority is based upon order of creation: first created -> highest priority.
