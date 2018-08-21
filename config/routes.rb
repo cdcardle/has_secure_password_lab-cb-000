@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'users#index'
 
-  get '/welcome/homepage', to: 'welcome#homepage'
+  get "/welcome/homepage", to: "welcome#homepage"
 
   get 'sessions/create'
 
