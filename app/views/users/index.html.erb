@@ -2,7 +2,7 @@
 
 <h3>Log in:</h3>
 
-<%= form_for :user do |f| %>
+<%= form_for :user, controller: 'users', action: 'post' do |f| %>
   <%= f.label :name %>
   <%= f.text_field :name %><br></br>
 
