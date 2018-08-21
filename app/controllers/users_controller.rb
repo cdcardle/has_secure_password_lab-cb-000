@@ -1,8 +1,4 @@
 class UsersController < ApplicationController
-  def homepage
-
-  end
-
   def new
 
   end
